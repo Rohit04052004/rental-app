@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "rental-app-server",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -11,9 +11,9 @@
     "postprisma:generate": "shx cp -r node_modules/.prisma/client/index.d.ts ../client/src/types/prismaTypes.d.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rohit Chigatapu",
   "license": "ISC",
-  "description": "",
+  "description": "RentIful server — Express/Prisma API for a rental property search and management app",
   "dependencies": {
     "@aws-sdk/client-s3": "^3.740.0",
     "@aws-sdk/lib-storage": "^3.740.0",

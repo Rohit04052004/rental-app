@@ -1,7 +1,9 @@
 {
-  "name": "real-estate",
+  "name": "rental-app-client",
   "version": "0.1.0",
   "private": true,
+  "description": "RentIful client — Next.js frontend for a rental property search and management app",
+  "author": "Rohit Chigatapu",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
